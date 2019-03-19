@@ -1,0 +1,234 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: orange;
+}
+
+
+
+.video-container {
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0;
+}
+
+.overlay{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    z-index: 10;
+   
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 60px;
+    display: inline-block;
+  
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+   
+}
+
+.social{
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 1px;
+    border: 1px solid orange;
+}
+
+.social, .box{
+    overflow: hidden;
+    
+}
+
+
+.box:hover:before{
+    left: -40px;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
+
+.auth-image{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+
+}
+
+.main{
+    background: white;
+    
+}
+
+#aboutme {
+    background: #00FFFF;
+
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#brief{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about{
+    color: black;
+}
+
+.my-work{
+    background: orange;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.d-block w-100{
+    width: 150px;
+    height: 200px;
+}
+
+#connect {background: orange;
+    padding-top: 10px;
+    border-top: solid #00FFFF 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 980px){
+
+      
+        .video-container{
+            max-width: 100%;
+            max-height: 70vh;
+        }
+        video{
+            max-width: 100%x;
+            max-height: 70vh;
+        }
+        h1{
+            max-width: 700px;
+        }
+        #aboutme{
+            max-width: 100%;
+
+        }
+        .main {
+            max-width: 100%;
+        }
+        .auth-image{
+            width: 150px;
+            height: 150px;
+        }
+
+        .my-work{
+            max-width: 100%;
+        }
+
+        #connect {
+            max-width: 100%;
+        }
+}
+@media only screen and (max-width:768px){
+
+    .video-container{
+        max-width: 100%;
+        max-height: 70vh;
+    }
+    video{
+        max-width: 100%x;
+        max-height: 70vh;
+    }
+    h1{
+        max-width: 700px;
+    }
+    #aboutme{
+        max-width: 100%;
+
+    }
+    .main {
+        max-width: 100%;
+    }
+    .auth-image{
+        width: 150px;
+        height: 150px;
+    }
+
+    .my-work{
+        max-width: 100%;
+    }
+
+    #connect {
+        max-width: 100%;
+    }
+
+}
+@media only screen and (max-width:640px){
+
+    .video-container{
+        max-width: 100%;
+        max-height: 70vh;
+    }
+    video{
+        max-width: 100%x;
+        max-height: 70vh;
+    }
+    h1{
+        max-width: 700px;
+    }
+    #aboutme{
+        max-width: 100%;
+
+    }
+    .main {
+        max-width: 100%;
+    }
+    .auth-image{
+        width: 150px;
+        height: 150px;
+    }
+
+    .my-work{
+        max-width: 100%;
+    }
+
+    #connect {
+        max-width: 100%;
+    }
+}
