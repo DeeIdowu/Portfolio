@@ -12,3 +12,7 @@ https://www.dennisidowu.com
 ![Screen Shot 2019-03-19 at 2 19 56 PM](https://user-images.githubusercontent.com/38046425/54631391-52e4a280-4a52-11e9-9903-470eade3ed92.png)
 ![Screen Shot 2019-03-19 at 2 20 10 PM](https://user-images.githubusercontent.com/38046425/54631402-57a95680-4a52-11e9-93f3-722a2c0e0f30.png)
 ![Screen Shot 2019-03-19 at 2 20 25 PM](https://user-images.githubusercontent.com/38046425/54631410-59731a00-4a52-11e9-905d-08b6376eea27.png)
+
+
+//back-up link:
+https://deeidowu.github.io/Portfolio/
